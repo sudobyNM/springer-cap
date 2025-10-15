@@ -87,23 +87,6 @@ type MonthlySales = {
 type YearlySales = Record<string, MonthlySales[]>;  // { "2024": [...], "2023": [...], ... }
 ```
 
-## 🚀 Deployment
-
-### Vercel
-
-The easiest way to deploy this application is to use [Vercel](https://vercel.com):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=<your-repo-url>)
-
-### Other Platforms
-
-This is a standard Next.js application and can be deployed to any platform that supports Next.js, including:
-
-- [Netlify](https://www.netlify.com/)
-- [AWS Amplify](https://aws.amazon.com/amplify/)
-- [Railway](https://railway.app/)
-- [Docker](https://www.docker.com/)
-
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
