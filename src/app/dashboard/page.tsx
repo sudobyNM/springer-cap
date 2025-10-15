@@ -30,7 +30,7 @@ export default function DashboardPage() {
         const res = await fetch("/api/sales");
         const json = await res.json();
         setApiData(json.data);
-      } catch (e: any) {
+      } catch (_error: unknown) {
         setError("Failed to fetch API data");
       } finally {
         setLoading(false);
